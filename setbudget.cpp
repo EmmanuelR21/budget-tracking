@@ -1,6 +1,7 @@
 #include "setbudget.h"
 #include "QIntValidator"
 #include "ui_setbudget.h"
+#include <qpushbutton.h>
 
 SetBudget::SetBudget(QWidget *parent)
     : QDialog(parent)
@@ -15,13 +16,14 @@ SetBudget::SetBudget(QWidget *parent)
     ui->otherLabel->setVisible(false);
     ui->otherLineEdit->setVisible(false);
 
-    connect(ui->customSplitRadio, &QRadioButton::toggled, this, &SetBudget::customRadioToggled);
     QIntValidator *validator = new QIntValidator(0, 100, this);
 
     ui->foodLineEdit->setValidator(validator);
     ui->transportationLineEdit->setValidator(validator);
     ui->otherLineEdit->setValidator(validator);
 
+    connect(ui->customSplitRadio, &QRadioButton::toggled, this, &SetBudget::customRadioToggled);
+    connect(ui->createSplitRadio, &QRadioButton::toggled, this, &SetBudget::defaultRadioToggled);
     connect(ui->foodLineEdit, &QLineEdit::textChanged, this, &SetBudget::validatePercentages);
     connect(ui->transportationLineEdit,
             &QLineEdit::textChanged,
@@ -32,16 +34,21 @@ SetBudget::SetBudget(QWidget *parent)
 
 void SetBudget::validatePercentages()
 {
-    bool ok1, ok2, ok3;
+    int value1 = ui->foodLineEdit->text().toInt();
+    int value2 = ui->transportationLineEdit->text().toInt();
+    int value3 = ui->otherLineEdit->text().toInt();
 
-    int value1 = ui->foodLineEdit->text().toInt(&ok1);
-    int value2 = ui->transportationLineEdit->text().toInt(&ok2);
-    int value3 = ui->otherLineEdit->text().toInt(&ok3);
-
-    if (ok1 && ok2 && ok3 && (value1 + value2 + value3 == 100)) {
+    if (value1 + value2 + value3 == 100) {
         ui->buttonBox->setEnabled(true);
     } else {
         ui->buttonBox->setEnabled(false);
+    }
+}
+
+void SetBudget::defaultRadioToggled(bool checked)
+{
+    if (checked) {
+        ui->buttonBox->setEnabled(true);
     }
 }
 
@@ -56,17 +63,17 @@ void SetBudget::customRadioToggled(bool checked)
         ui->transportationLineEdit->setVisible(false);
         ui->otherLabel->setVisible(false);
         ui->otherLineEdit->setVisible(false);
-        return;
-    }
-    this->resize(this->width(), 400);
-    ui->foodLabel->setVisible(true);
-    ui->foodLineEdit->setVisible(true);
-    ui->transportationLabel->setVisible(true);
-    ui->transportationLineEdit->setVisible(true);
-    ui->otherLabel->setVisible(true);
-    ui->otherLineEdit->setVisible(true);
+    } else {
+        this->resize(this->width(), 400);
+        ui->foodLabel->setVisible(true);
+        ui->foodLineEdit->setVisible(true);
+        ui->transportationLabel->setVisible(true);
+        ui->transportationLineEdit->setVisible(true);
+        ui->otherLabel->setVisible(true);
+        ui->otherLineEdit->setVisible(true);
 
-    ui->buttonBox->move(ui->buttonBox->x(), ui->buttonBox->y() + 100);
+        ui->buttonBox->move(ui->buttonBox->x(), ui->buttonBox->y() + 100);
+    }
 }
 
 SetBudget::~SetBudget()

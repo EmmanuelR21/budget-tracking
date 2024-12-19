@@ -325,4 +325,28 @@ CMakeFiles/budget-tracking.dir/budget-tracking_autogen/mocs_compilation.cpp.o: \
   /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/EWIEGA46WW/../../../../classes/account.h \
   /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/EWIEGA46WW/moc_setbudget.cpp \
   /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/EWIEGA46WW/../../../../setbudget.h \
-  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h
+  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
+  /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/include/ui_setbudget.h \
+  /usr/include/qt/QtWidgets/QApplication \
+  /usr/include/qt/QtWidgets/qapplication.h \
+  /usr/include/qt/QtCore/qcoreapplication.h \
+  /usr/include/qt/QtCore/qeventloop.h \
+  /usr/include/qt/QtGui/qguiapplication.h \
+  /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
+  /usr/include/qt/QtWidgets/QDialogButtonBox \
+  /usr/include/qt/QtWidgets/qdialogbuttonbox.h \
+  /usr/include/qt/QtWidgets/QFormLayout \
+  /usr/include/qt/QtWidgets/qformlayout.h \
+  /usr/include/qt/QtWidgets/QLayout /usr/include/qt/QtWidgets/qlayout.h \
+  /usr/include/qt/QtWidgets/qlayoutitem.h \
+  /usr/include/qt/QtWidgets/qboxlayout.h \
+  /usr/include/qt/QtWidgets/qgridlayout.h \
+  /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/qlabel.h \
+  /usr/include/qt/QtWidgets/QLineEdit \
+  /usr/include/qt/QtWidgets/qlineedit.h \
+  /usr/include/qt/QtGui/qtextcursor.h \
+  /usr/include/qt/QtGui/qtextformat.h \
+  /usr/include/qt/QtWidgets/QRadioButton \
+  /usr/include/qt/QtWidgets/qradiobutton.h \
+  /usr/include/qt/QtWidgets/qabstractbutton.h \
+  /usr/include/qt/QtWidgets/QWidget

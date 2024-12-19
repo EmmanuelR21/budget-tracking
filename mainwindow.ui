@@ -238,7 +238,7 @@ background-color: green;</string>
      <string>+ Set Budget</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="budgetAmountTotal">
     <property name="geometry">
      <rect>
       <x>950</x>
@@ -254,6 +254,24 @@ background-color: green;</string>
     </property>
     <property name="text">
      <string>$</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="totalAmtLabel">
+    <property name="geometry">
+     <rect>
+      <x>887</x>
+      <y>597</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Total Left:</string>
     </property>
    </widget>
   </widget>

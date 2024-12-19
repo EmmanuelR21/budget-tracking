@@ -37,8 +37,13 @@ MainWindow::~MainWindow()
 
 void MainWindow::openDialog()
 {
-    SetBudget dialog(this);
-    dialog.exec();
+    SetBudget dialog(this);                   // Create the dialog instance
+    if (dialog.exec() == QDialog::Accepted) { // Wait for user interaction and check result
+        float text = dialog.getLineEditText().toFloat(); // Retrieve the text from the LineEdit
+        QString budgetAmt = QString::asprintf("%.2f", text);
+
+        ui->budgetAmountTotal->setText("$" + budgetAmt);
+    }
 }
 
 void MainWindow::on_pushButton_clicked()
@@ -68,10 +73,40 @@ void MainWindow::submitData()
     } else if (account == "Transportation") {
         transportation.SetTransaction(transaction.toDouble());
         ui->transList->addItem("$" + transaction + ",     " + date_and_time);
+        transportation.SetAvgTrans();
+        Box(transaction.toDouble(), transportation);
     } else {
         other.SetTransaction(transaction.toDouble());
         ui->otherList->addItem("$" + transaction + ",     " + date_and_time);
+        other.SetAvgTrans();
+        Box(transaction.toDouble(), other);
     }
+
+    QString text = ui->budgetAmountTotal->text();
+
+    if (text.startsWith('$')) {
+        text.remove(0, 1);
+    }
+
+    double bdgtAmt = text.toDouble();
+    float sum = 0.0;
+
+    for (float value : food.GetTransactions()) {
+        sum += value;
+    }
+
+    for (float value : transportation.GetTransactions()) {
+        sum += value;
+    }
+
+    for (float value : other.GetTransactions()) {
+        sum += value;
+    }
+
+    bdgtAmt -= sum;
+    QString str = QString::number(bdgtAmt, 'f', 2);
+
+    ui->totalAmtLabel->setText("Total Left:" + str);
 
     ui->enterTransactionLabel->setVisible(false);
     ui->enterTransactionLineEdit->setVisible(false);

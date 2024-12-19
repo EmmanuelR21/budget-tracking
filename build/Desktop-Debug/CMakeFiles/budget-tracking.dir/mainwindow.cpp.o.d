@@ -378,4 +378,9 @@ CMakeFiles/budget-tracking.dir/mainwindow.cpp.o: \
   /usr/include/qt/QtCharts/QXYSeries \
   /usr/include/qt/QtCharts/qxyseries.h \
   /home/eman/projects/budget-tracking/setbudget.h \
-  /usr/include/qt/QtWidgets/QDialog
+  /usr/include/qt/QtWidgets/QDialog \
+  /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/include/ui_setbudget.h \
+  /usr/include/qt/QtWidgets/QDialogButtonBox \
+  /usr/include/qt/QtWidgets/qdialogbuttonbox.h \
+  /usr/include/qt/QtWidgets/QRadioButton \
+  /usr/include/qt/QtWidgets/qradiobutton.h

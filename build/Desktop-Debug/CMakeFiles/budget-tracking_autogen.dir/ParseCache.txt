@@ -1080,6 +1080,7 @@
  mdp:/usr/lib/clang/18/include/stdarg.h
  mdp:/usr/lib/clang/18/include/stddef.h
  mdp:/usr/lib/clang/18/include/stdint.h
+ uic:ui_setbudget.h
 /home/eman/projects/budget-tracking/classes/account.cpp
 /home/eman/projects/budget-tracking/main.cpp
 /home/eman/projects/budget-tracking/financegraph.cpp

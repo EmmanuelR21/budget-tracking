@@ -2,6 +2,7 @@
 #define SETBUDGET_H
 
 #include <QDialog>
+#include "ui_setbudget.h"
 
 namespace Ui {
 class SetBudget;
@@ -14,10 +15,12 @@ class SetBudget : public QDialog
 public:
     explicit SetBudget(QWidget *parent = nullptr);
     ~SetBudget();
+    QString getLineEditText() const { return ui->budgetAmount->text(); }
 
 private slots:
     void customRadioToggled(bool);
     void validatePercentages();
+    void defaultRadioToggled(bool);
 
 private:
     Ui::SetBudget *ui;

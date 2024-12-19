@@ -284,19 +284,17 @@ CMakeFiles/budget-tracking.dir/setbudget.cpp.o: \
   /usr/include/qt/QtGui/qfontinfo.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtGui/qcursor.h /usr/include/qt/QtGui/qkeysequence.h \
-  /usr/include/qt/QtGui/QIntValidator /usr/include/qt/QtGui/qvalidator.h \
-  /usr/include/qt/QtCore/qregularexpression.h \
-  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
-  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/variant \
-  /usr/include/qt/QtCore/qlocale.h \
   /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/include/ui_setbudget.h \
-  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtWidgets/QApplication \
+  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
+  /usr/include/qt/QtCore/qmap.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/variant \
+  /usr/include/qt/QtWidgets/QApplication \
   /usr/include/qt/QtWidgets/qapplication.h \
   /usr/include/qt/QtCore/qcoreapplication.h \
   /usr/include/qt/QtCore/qcoreevent.h \
   /usr/include/qt/QtCore/qeventloop.h \
   /usr/include/qt/QtGui/qguiapplication.h \
-  /usr/include/qt/QtGui/qinputmethod.h \
+  /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
   /usr/include/qt/QtWidgets/QDialogButtonBox \
   /usr/include/qt/QtWidgets/qdialogbuttonbox.h \
   /usr/include/qt/QtWidgets/QFormLayout \
@@ -314,8 +312,7 @@ CMakeFiles/budget-tracking.dir/setbudget.cpp.o: \
   /usr/include/qt/QtWidgets/QRadioButton \
   /usr/include/qt/QtWidgets/qradiobutton.h \
   /usr/include/qt/QtWidgets/qabstractbutton.h \
-  /usr/include/qt/QtGui/qicon.h /usr/include/qt/QtWidgets/QTextEdit \
-  /usr/include/qt/QtWidgets/qtextedit.h \
-  /usr/include/qt/QtWidgets/qabstractscrollarea.h \
-  /usr/include/qt/QtGui/qtextdocument.h /usr/include/qt/QtCore/qurl.h \
-  /usr/include/qt/QtWidgets/QWidget
+  /usr/include/qt/QtGui/qicon.h /usr/include/qt/QtWidgets/QWidget \
+  /usr/include/qt/QtGui/QIntValidator /usr/include/qt/QtGui/qvalidator.h \
+  /usr/include/qt/QtCore/qregularexpression.h \
+  /usr/include/qt/QtWidgets/qpushbutton.h
