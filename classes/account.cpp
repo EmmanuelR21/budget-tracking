@@ -30,3 +30,12 @@ void Account::SetAvgTrans() {
     setprecision(2);
     avgTrans = total / transactions.size();
 }
+
+int Account::GetPercentOfBdgt()
+{
+    return percentOfBdgt;
+}
+void Account::SetPercentOfBdgt(int p)
+{
+    percentOfBdgt = p;
+};

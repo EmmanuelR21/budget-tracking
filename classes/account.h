@@ -9,6 +9,8 @@ private:
     float startingBalance;
     vector<float> transactions;
     float avgTrans;
+    int percentOfBdgt;
+
 public:
     Account();
     Account(float);
@@ -19,7 +21,8 @@ public:
     int GetTransactionsSize();
     float GetAvgTrans();
     void SetAvgTrans();
+    int GetPercentOfBdgt();
+    void SetPercentOfBdgt(int);
 };
-
 
 #endif // ACCOUNT_H
