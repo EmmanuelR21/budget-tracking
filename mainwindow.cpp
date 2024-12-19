@@ -158,11 +158,11 @@ void MainWindow::Box(double transaction, Account acc)
             this,
             "Nice one!",
             "You have spent less than half of your average, we will hold you to this!",
-            QMessageBox::Warning);
+            QMessageBox::Ok);
     } else if (transaction < acc.GetAvgTrans()) {
         QMessageBox::information(this,
                                  "Nice one!",
                                  "You spent less than your average, Keep it up!",
-                                 QMessageBox::Warning);
+                                 QMessageBox::Ok);
     }
 }
