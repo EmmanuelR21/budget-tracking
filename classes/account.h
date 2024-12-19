@@ -23,6 +23,7 @@ public:
     void SetAvgTrans();
     int GetPercentOfBdgt();
     void SetPercentOfBdgt(int);
+    double GetTransactionSum();
 };
 
 #endif // ACCOUNT_H

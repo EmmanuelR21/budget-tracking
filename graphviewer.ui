@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GraphViewer</class>
+ <widget class="QDialog" name="GraphViewer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1481</width>
+    <height>838</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>551</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="foodGraphLayout"/>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>40</y>
+     <width>551</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="transportationGraphLayout"/>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>440</y>
+     <width>551</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="otherGraphLayout"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

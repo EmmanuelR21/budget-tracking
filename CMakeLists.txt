@@ -41,6 +41,8 @@ else()
             classes/account.h classes/account.cpp
             setbudget.h setbudget.cpp setbudget.ui
             financegraph.h financegraph.cpp
+            graphviewer.h graphviewer.cpp graphviewer.ui
+
 
 
 

@@ -16,6 +16,8 @@ public:
     explicit SetBudget(QWidget *parent = nullptr);
     ~SetBudget();
     QString getLineEditText() const { return ui->budgetAmount->text(); }
+    std::vector<QString> getPercentages(int);
+    int getRadioMode();
 
 private slots:
     void customRadioToggled(bool);

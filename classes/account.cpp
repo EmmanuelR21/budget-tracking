@@ -39,3 +39,12 @@ void Account::SetPercentOfBdgt(int p)
 {
     percentOfBdgt = p;
 };
+
+double Account::GetTransactionSum()
+{
+    double sum = 0;
+    for (int i = 0; i < transactions.size(); i++) {
+        sum += transactions[i];
+    }
+    return sum;
+}

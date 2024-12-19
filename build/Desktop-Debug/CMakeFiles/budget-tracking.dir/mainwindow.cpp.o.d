@@ -343,7 +343,9 @@ CMakeFiles/budget-tracking.dir/mainwindow.cpp.o: \
   /usr/include/qt/QtWidgets/QStatusBar \
   /usr/include/qt/QtWidgets/qstatusbar.h \
   /usr/include/qt/QtWidgets/QVBoxLayout \
-  /usr/include/qt/QtWidgets/QWidget \
+  /usr/include/qt/QtWidgets/QWidget /usr/include/qt/QtCore/QDebug \
+  /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qtextstream.h \
+  /usr/include/qt/QtCore/qcontiguouscache.h \
   /usr/include/qt/QtWidgets/QMessageBox \
   /usr/include/qt/QtWidgets/qmessagebox.h \
   /usr/include/qt/QtWidgets/qdialog.h \
@@ -377,10 +379,25 @@ CMakeFiles/budget-tracking.dir/mainwindow.cpp.o: \
   /usr/include/qt/QtCharts/qlineseries.h \
   /usr/include/qt/QtCharts/QXYSeries \
   /usr/include/qt/QtCharts/qxyseries.h \
-  /home/eman/projects/budget-tracking/setbudget.h \
+  /home/eman/projects/budget-tracking/graphviewer.h \
   /usr/include/qt/QtWidgets/QDialog \
+  /home/eman/projects/budget-tracking/setbudget.h \
   /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/include/ui_setbudget.h \
   /usr/include/qt/QtWidgets/QDialogButtonBox \
   /usr/include/qt/QtWidgets/qdialogbuttonbox.h \
   /usr/include/qt/QtWidgets/QRadioButton \
-  /usr/include/qt/QtWidgets/qradiobutton.h
+  /usr/include/qt/QtWidgets/qradiobutton.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/iostream \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/ostream \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/ios \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/bits/basic_ios.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/bits/locale_facets.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/cwctype \
+  /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/bits/ostream.tcc \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/istream \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/bits/istream.tcc

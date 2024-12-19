@@ -22,6 +22,7 @@ private slots:
     void on_pushButton_clicked();
     void submitData();
     void openDialog();
+    void openGraphViewer();
 
 private:
     Ui::MainWindow *ui;

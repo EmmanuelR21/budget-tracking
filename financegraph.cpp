@@ -35,6 +35,18 @@ void financeGraph::setTitle(std::string title)
 
 void financeGraph::appendData(std::vector<float> transactions)
 {
+    if (transactions.empty()) {
+        // Handle the empty graph case
+        chart->axes(Qt::Horizontal).first()->setRange(0, 10); // Default X-axis range
+        chart->axes(Qt::Vertical).first()->setRange(0, 10);   // Default Y-axis range
+
+        QValueAxis *xAxis = qobject_cast<QValueAxis *>(chart->axes(Qt::Horizontal).first());
+        if (xAxis) {
+            xAxis->setTickCount(11); // Default tick count
+        }
+        return;
+    }
+
     for (int i = 0; i < transactions.size(); ++i) {
         series->append(i + 1, transactions[i]);
     }

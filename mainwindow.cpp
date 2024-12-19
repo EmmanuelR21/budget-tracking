@@ -1,9 +1,12 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "QDebug"
 #include "QMessageBox"
 #include "classes/account.h" //
 #include "financegraph.h"
+#include "graphviewer.h"
 #include "setbudget.h"
+#include <iostream>
 
 Account transportation;
 Account food;
@@ -28,11 +31,19 @@ MainWindow::MainWindow(QWidget *parent)
 
     connect(ui->addButton, &QPushButton::clicked, this, &MainWindow::submitData);
     connect(ui->openDialogBtn, &QPushButton::clicked, this, &MainWindow::openDialog);
+    connect(ui->visualizeBtn, &QPushButton::clicked, this, &MainWindow::openGraphViewer);
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::openGraphViewer()
+{
+    GraphViewer graphs(this);
+    graphs.sendAccounts(food, transportation, other);
+    graphs.exec();
 }
 
 void MainWindow::openDialog()
@@ -43,6 +54,12 @@ void MainWindow::openDialog()
         QString budgetAmt = QString::asprintf("%.2f", text);
 
         ui->budgetAmountTotal->setText("$" + budgetAmt);
+        int radioMode = dialog.getRadioMode();
+        cout << "AHHHH" << radioMode << endl;
+        food.SetStartingBalance((dialog.getPercentages(radioMode)[0].toDouble() / 100) * text);
+        transportation.SetStartingBalance((dialog.getPercentages(radioMode)[1].toDouble() / 100)
+                                          * text);
+        other.SetStartingBalance((dialog.getPercentages(radioMode)[2].toDouble() / 100) * text);
     }
 }
 
@@ -120,20 +137,21 @@ void MainWindow::submitData()
 
 void MainWindow::Box(double transaction, Account acc)
 {
-    if (transaction == 10) {
+    cout << acc.GetTransactionSum() << endl << acc.GetStartingBalance() << endl;
+    if (acc.GetTransactionSum() >= acc.GetStartingBalance()) {
         QMessageBox::information(this,
-                                 "Alert",
-                                 "Valjdshglkjasdhglsdjkghjkue yuh uh huh nuh uh",
-                                 QMessageBox::Ok);
-    }
-    if (transaction > 2 * acc.GetAvgTrans())
+                                 "Maybe its time to stop..",
+                                 "You have exceeded the limit for this account!",
+                                 QMessageBox::Warning);
+    } else if (transaction > 2 * acc.GetAvgTrans()) {
         QMessageBox::information(this,
                                  "Watch your spending!",
                                  "You're Spending more than double your average!",
                                  QMessageBox::Warning);
-    if (transaction > 1.5 * acc.GetAvgTrans())
+    } else if (transaction > 1.5 * acc.GetAvgTrans()) {
         QMessageBox::information(this,
                                  "Watch your spending!",
                                  "You're Spending slightly over your average, be careful!",
                                  QMessageBox::Warning);
+    }
 }

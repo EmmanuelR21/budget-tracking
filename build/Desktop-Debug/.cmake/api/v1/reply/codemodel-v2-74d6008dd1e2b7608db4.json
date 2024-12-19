@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-1659667508e297204515.json",
+					"jsonFile" : "directory-.-Debug-f633747fa2ca061b3fc1.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -42,7 +42,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "budget-tracking::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-budget-tracking-Debug-66c3c1c213996f26a9f1.json",
+					"jsonFile" : "target-budget-tracking-Debug-dd32996facf3e7cc3f2f.json",
 					"name" : "budget-tracking",
 					"projectIndex" : 0
 				},

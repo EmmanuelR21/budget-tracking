@@ -52,6 +52,26 @@ void SetBudget::defaultRadioToggled(bool checked)
     }
 }
 
+std::vector<QString> SetBudget::getPercentages(int mode)
+{
+    if (mode == 2) {
+        return {ui->foodLineEdit->text(),
+                ui->transportationLineEdit->text(),
+                ui->otherLineEdit->text()};
+    } else {
+        return {"30", "25", "45"};
+    }
+}
+
+int SetBudget::getRadioMode()
+{
+    if (ui->createSplitRadio->isChecked()) {
+        return 1;
+    } else {
+        return 2;
+    }
+}
+
 void SetBudget::customRadioToggled(bool checked)
 {
     if (!checked) {

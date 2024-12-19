@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/budget-tracking_autogen"
+  "budget-tracking_autogen/include/ui_graphviewer.h"
   "budget-tracking_autogen/include/ui_mainwindow.h"
   "budget-tracking_autogen/include/ui_setbudget.h"
   "budget-tracking_autogen/mocs_compilation.cpp"

@@ -8,6 +8,8 @@ budget-tracking_autogen/timestamp: \
 	/home/eman/projects/budget-tracking/classes/account.h \
 	/home/eman/projects/budget-tracking/financegraph.cpp \
 	/home/eman/projects/budget-tracking/financegraph.h \
+	/home/eman/projects/budget-tracking/graphviewer.cpp \
+	/home/eman/projects/budget-tracking/graphviewer.h \
 	/home/eman/projects/budget-tracking/main.cpp \
 	/home/eman/projects/budget-tracking/mainwindow.cpp \
 	/home/eman/projects/budget-tracking/mainwindow.h \
@@ -485,6 +487,7 @@ budget-tracking_autogen/timestamp: \
 	/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake \
 	/usr/share/cmake/Modules/Platform/Linux.cmake \
 	/usr/share/cmake/Modules/Platform/UnixPaths.cmake \
+	/home/eman/projects/budget-tracking/graphviewer.ui \
 	/home/eman/projects/budget-tracking/mainwindow.ui \
 	/home/eman/projects/budget-tracking/setbudget.ui \
 	/usr/bin/cmake
