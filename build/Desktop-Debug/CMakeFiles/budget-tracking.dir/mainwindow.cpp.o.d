@@ -286,6 +286,7 @@ CMakeFiles/budget-tracking.dir/mainwindow.cpp.o: \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtGui/qcursor.h /usr/include/qt/QtGui/qkeysequence.h \
   /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
+  /home/eman/projects/budget-tracking/classes/account.h \
   /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/include/./ui_mainwindow.h \
   /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
   /usr/include/qt/QtCore/qmap.h \
@@ -343,4 +344,38 @@ CMakeFiles/budget-tracking.dir/mainwindow.cpp.o: \
   /usr/include/qt/QtWidgets/qstatusbar.h \
   /usr/include/qt/QtWidgets/QVBoxLayout \
   /usr/include/qt/QtWidgets/QWidget \
-  /home/eman/projects/budget-tracking/classes/account.h
+  /usr/include/qt/QtWidgets/QMessageBox \
+  /usr/include/qt/QtWidgets/qmessagebox.h \
+  /usr/include/qt/QtWidgets/qdialog.h \
+  /home/eman/projects/budget-tracking/financegraph.h \
+  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCharts/QChart \
+  /usr/include/qt/QtCharts/qchart.h \
+  /usr/include/qt/QtCharts/QAbstractSeries \
+  /usr/include/qt/QtCharts/qabstractseries.h \
+  /usr/include/qt/QtCharts/QChartGlobal \
+  /usr/include/qt/QtCharts/qchartglobal.h \
+  /usr/include/qt/QtCore/QtGlobal /usr/include/qt/QtCharts/QAbstractAxis \
+  /usr/include/qt/QtCharts/qabstractaxis.h /usr/include/qt/QtGui/QPen \
+  /usr/include/qt/QtGui/QFont /usr/include/qt/QtCharts/QLegend \
+  /usr/include/qt/QtCharts/qlegend.h \
+  /usr/include/qt/QtWidgets/QGraphicsWidget \
+  /usr/include/qt/QtWidgets/qgraphicswidget.h \
+  /usr/include/qt/QtWidgets/qgraphicslayoutitem.h \
+  /usr/include/qt/QtGui/qevent.h /usr/include/qt/QtCore/qurl.h \
+  /usr/include/qt/QtCore/qfile.h /usr/include/qt/QtCore/qfiledevice.h \
+  /usr/include/qt/QtGui/qvector2d.h /usr/include/qt/QtGui/qtouchdevice.h \
+  /usr/include/qt/QtWidgets/qgraphicsitem.h \
+  /usr/include/qt/QtGui/qpainterpath.h /usr/include/qt/QtGui/QBrush \
+  /usr/include/qt/QtCore/QMargins /usr/include/qt/QtCharts/QChartView \
+  /usr/include/qt/QtCharts/qchartview.h \
+  /usr/include/qt/QtWidgets/QGraphicsView \
+  /usr/include/qt/QtWidgets/qgraphicsview.h \
+  /usr/include/qt/QtGui/qpainter.h \
+  /usr/include/qt/QtWidgets/qscrollarea.h \
+  /usr/include/qt/QtWidgets/qgraphicsscene.h \
+  /usr/include/qt/QtCharts/QLineSeries \
+  /usr/include/qt/QtCharts/qlineseries.h \
+  /usr/include/qt/QtCharts/QXYSeries \
+  /usr/include/qt/QtCharts/qxyseries.h \
+  /home/eman/projects/budget-tracking/setbudget.h \
+  /usr/include/qt/QtWidgets/QDialog

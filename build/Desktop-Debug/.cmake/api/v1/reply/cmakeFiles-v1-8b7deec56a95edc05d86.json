@@ -356,6 +356,14 @@
 			"path" : "/usr/share/cmake/Modules/CMakeParseArguments.cmake"
 		},
 		{
+			"isExternal" : true,
+			"path" : "/usr/lib/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/cmake/Qt5Charts/Qt5ChartsConfig.cmake"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/usr/share/cmake/Modules/GNUInstallDirs.cmake"

@@ -14,7 +14,7 @@ public:
     Account(float);
     float GetStartingBalance();
     void SetStartingBalance(float);
-    float GetTransactions(int);
+    vector<float> GetTransactions();
     void SetTransaction(float);
     int GetTransactionsSize();
     float GetAvgTrans();

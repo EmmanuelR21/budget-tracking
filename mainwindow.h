@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "classes/account.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -20,8 +21,10 @@ public:
 private slots:
     void on_pushButton_clicked();
     void submitData();
+    void openDialog();
 
 private:
     Ui::MainWindow *ui;
+    void Box(double, Account);
 };
 #endif // MAINWINDOW_H

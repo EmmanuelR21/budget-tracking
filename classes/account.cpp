@@ -15,7 +15,10 @@ void Account::SetStartingBalance(float startBal) {
     setprecision(2);
     startingBalance = startBal;
 }
-float Account::GetTransactions(int index) { return transactions[index]; }
+vector<float> Account::GetTransactions()
+{
+    return transactions;
+}
 void Account::SetTransaction(float transaction) { transactions.push_back(transaction); }
 int Account::GetTransactionsSize() { return transactions.size(); }
 float Account::GetAvgTrans() { return avgTrans; }

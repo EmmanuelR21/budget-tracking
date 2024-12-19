@@ -135,12 +135,42 @@ CMakeFiles/budget-tracking.dir/classes/account.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/budget-tracking.dir/classes/account.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eman/projects/budget-tracking/classes/account.cpp -o CMakeFiles/budget-tracking.dir/classes/account.cpp.s
 
+CMakeFiles/budget-tracking.dir/setbudget.cpp.o: CMakeFiles/budget-tracking.dir/flags.make
+CMakeFiles/budget-tracking.dir/setbudget.cpp.o: /home/eman/projects/budget-tracking/setbudget.cpp
+CMakeFiles/budget-tracking.dir/setbudget.cpp.o: CMakeFiles/budget-tracking.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eman/projects/budget-tracking/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/budget-tracking.dir/setbudget.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/budget-tracking.dir/setbudget.cpp.o -MF CMakeFiles/budget-tracking.dir/setbudget.cpp.o.d -o CMakeFiles/budget-tracking.dir/setbudget.cpp.o -c /home/eman/projects/budget-tracking/setbudget.cpp
+
+CMakeFiles/budget-tracking.dir/setbudget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/budget-tracking.dir/setbudget.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eman/projects/budget-tracking/setbudget.cpp > CMakeFiles/budget-tracking.dir/setbudget.cpp.i
+
+CMakeFiles/budget-tracking.dir/setbudget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/budget-tracking.dir/setbudget.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eman/projects/budget-tracking/setbudget.cpp -o CMakeFiles/budget-tracking.dir/setbudget.cpp.s
+
+CMakeFiles/budget-tracking.dir/financegraph.cpp.o: CMakeFiles/budget-tracking.dir/flags.make
+CMakeFiles/budget-tracking.dir/financegraph.cpp.o: /home/eman/projects/budget-tracking/financegraph.cpp
+CMakeFiles/budget-tracking.dir/financegraph.cpp.o: CMakeFiles/budget-tracking.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eman/projects/budget-tracking/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/budget-tracking.dir/financegraph.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/budget-tracking.dir/financegraph.cpp.o -MF CMakeFiles/budget-tracking.dir/financegraph.cpp.o.d -o CMakeFiles/budget-tracking.dir/financegraph.cpp.o -c /home/eman/projects/budget-tracking/financegraph.cpp
+
+CMakeFiles/budget-tracking.dir/financegraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/budget-tracking.dir/financegraph.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eman/projects/budget-tracking/financegraph.cpp > CMakeFiles/budget-tracking.dir/financegraph.cpp.i
+
+CMakeFiles/budget-tracking.dir/financegraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/budget-tracking.dir/financegraph.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eman/projects/budget-tracking/financegraph.cpp -o CMakeFiles/budget-tracking.dir/financegraph.cpp.s
+
 # Object files for target budget-tracking
 budget__tracking_OBJECTS = \
 "CMakeFiles/budget-tracking.dir/budget-tracking_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/budget-tracking.dir/main.cpp.o" \
 "CMakeFiles/budget-tracking.dir/mainwindow.cpp.o" \
-"CMakeFiles/budget-tracking.dir/classes/account.cpp.o"
+"CMakeFiles/budget-tracking.dir/classes/account.cpp.o" \
+"CMakeFiles/budget-tracking.dir/setbudget.cpp.o" \
+"CMakeFiles/budget-tracking.dir/financegraph.cpp.o"
 
 # External object files for target budget-tracking
 budget__tracking_EXTERNAL_OBJECTS =
@@ -149,13 +179,16 @@ budget-tracking: CMakeFiles/budget-tracking.dir/budget-tracking_autogen/mocs_com
 budget-tracking: CMakeFiles/budget-tracking.dir/main.cpp.o
 budget-tracking: CMakeFiles/budget-tracking.dir/mainwindow.cpp.o
 budget-tracking: CMakeFiles/budget-tracking.dir/classes/account.cpp.o
+budget-tracking: CMakeFiles/budget-tracking.dir/setbudget.cpp.o
+budget-tracking: CMakeFiles/budget-tracking.dir/financegraph.cpp.o
 budget-tracking: CMakeFiles/budget-tracking.dir/build.make
 budget-tracking: CMakeFiles/budget-tracking.dir/compiler_depend.ts
+budget-tracking: /usr/lib/libQt5Charts.so.5.15.16
 budget-tracking: /usr/lib/libQt5Widgets.so.5.15.16
 budget-tracking: /usr/lib/libQt5Gui.so.5.15.16
 budget-tracking: /usr/lib/libQt5Core.so.5.15.16
 budget-tracking: CMakeFiles/budget-tracking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/eman/projects/budget-tracking/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable budget-tracking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/eman/projects/budget-tracking/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable budget-tracking"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/budget-tracking.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

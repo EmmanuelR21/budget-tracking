@@ -1,6 +1,6 @@
 CMakeFiles/budget-tracking.dir/budget-tracking_autogen/mocs_compilation.cpp.o: \
   /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/mocs_compilation.cpp \
-  /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+  /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/EWIEGA46WW/moc_financegraph.cpp \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/memory \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/bits/memoryfwd.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -121,11 +121,10 @@ CMakeFiles/budget-tracking.dir/budget-tracking_autogen/mocs_compilation.cpp.o: \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward/auto_ptr.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/pstl/glue_memory_defs.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/pstl/execution_defs.h \
-  /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/EWIEGA46WW/../../../../mainwindow.h \
-  /usr/include/qt/QtWidgets/QMainWindow \
-  /usr/include/qt/QtWidgets/qmainwindow.h \
-  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
+  /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/EWIEGA46WW/../../../../financegraph.h \
+  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
+  /usr/include/qt/QtCore/qobjectdefs.h \
+  /usr/include/qt/QtCore/qnamespace.h /usr/include/qt/QtCore/qglobal.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/cstddef \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/utility \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/bits/stl_relops.h \
@@ -158,17 +157,11 @@ CMakeFiles/budget-tracking.dir/budget-tracking_autogen/mocs_compilation.cpp.o: \
   /usr/include/qt/QtCore/qglobalstatic.h \
   /usr/include/qt/QtCore/qnumeric.h \
   /usr/include/qt/QtCore/qversiontagging.h \
-  /usr/include/qt/QtGui/qtgui-config.h \
-  /usr/include/qt/QtWidgets/qtwidgets-config.h \
-  /usr/include/qt/QtWidgets/qwidget.h \
-  /usr/include/qt/QtGui/qwindowdefs.h \
-  /usr/include/qt/QtCore/qobjectdefs.h \
-  /usr/include/qt/QtCore/qnamespace.h \
   /usr/include/qt/QtCore/qobjectdefs_impl.h \
-  /usr/include/qt/QtCore/qobject.h /usr/include/qt/QtCore/qstring.h \
-  /usr/include/qt/QtCore/qchar.h /usr/include/qt/QtCore/qbytearray.h \
-  /usr/include/qt/QtCore/qrefcount.h /usr/include/qt/QtCore/qarraydata.h \
-  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/qt/QtCore/qstring.h /usr/include/qt/QtCore/qchar.h \
+  /usr/include/qt/QtCore/qbytearray.h /usr/include/qt/QtCore/qrefcount.h \
+  /usr/include/qt/QtCore/qarraydata.h /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/stdlib.h \
   /usr/lib/clang/18/include/__stdarg_va_list.h \
   /usr/lib/clang/18/include/__stdarg_va_arg.h \
@@ -267,21 +260,69 @@ CMakeFiles/budget-tracking.dir/budget-tracking_autogen/mocs_compilation.cpp.o: \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/limits \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/ctime \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/bits/parse_numbers.h \
-  /usr/include/qt/QtCore/qmargins.h /usr/include/qt/QtGui/qpaintdevice.h \
-  /usr/include/qt/QtCore/qrect.h /usr/include/qt/QtCore/qsize.h \
-  /usr/include/qt/QtCore/qpoint.h /usr/include/qt/QtGui/qpalette.h \
-  /usr/include/qt/QtGui/qcolor.h /usr/include/qt/QtGui/qrgb.h \
-  /usr/include/qt/QtGui/qrgba64.h /usr/include/qt/QtGui/qbrush.h \
+  /usr/include/qt/QtCharts/QChart /usr/include/qt/QtCharts/qchart.h \
+  /usr/include/qt/QtCharts/QAbstractSeries \
+  /usr/include/qt/QtCharts/qabstractseries.h \
+  /usr/include/qt/QtCharts/QChartGlobal \
+  /usr/include/qt/QtCharts/qchartglobal.h \
+  /usr/include/qt/QtCore/QtGlobal /usr/include/qt/QtCharts/QAbstractAxis \
+  /usr/include/qt/QtCharts/qabstractaxis.h /usr/include/qt/QtGui/QPen \
+  /usr/include/qt/QtGui/qpen.h /usr/include/qt/QtGui/qtguiglobal.h \
+  /usr/include/qt/QtGui/qtgui-config.h /usr/include/qt/QtGui/qcolor.h \
+  /usr/include/qt/QtGui/qrgb.h /usr/include/qt/QtGui/qrgba64.h \
+  /usr/include/qt/QtGui/qbrush.h /usr/include/qt/QtCore/qpoint.h \
   /usr/include/qt/QtGui/qmatrix.h /usr/include/qt/QtGui/qpolygon.h \
-  /usr/include/qt/QtGui/qregion.h /usr/include/qt/QtCore/qdatastream.h \
+  /usr/include/qt/QtCore/qrect.h /usr/include/qt/QtCore/qmargins.h \
+  /usr/include/qt/QtCore/qsize.h /usr/include/qt/QtGui/qregion.h \
+  /usr/include/qt/QtGui/qwindowdefs.h \
+  /usr/include/qt/QtCore/qdatastream.h \
   /usr/include/qt/QtCore/qiodevice.h /usr/include/qt/QtCore/qline.h \
   /usr/include/qt/QtGui/qtransform.h /usr/include/qt/QtGui/qimage.h \
+  /usr/include/qt/QtGui/qpaintdevice.h \
   /usr/include/qt/QtGui/qpixelformat.h /usr/include/qt/QtGui/qpixmap.h \
   /usr/include/qt/QtCore/qsharedpointer.h \
   /usr/include/qt/QtCore/qshareddata.h /usr/include/qt/QtCore/qhash.h \
   /usr/include/qt/QtCore/qsharedpointer_impl.h \
-  /usr/include/qt/QtGui/qfont.h /usr/include/qt/QtGui/qfontmetrics.h \
-  /usr/include/qt/QtGui/qfontinfo.h \
-  /usr/include/qt/QtWidgets/qsizepolicy.h \
-  /usr/include/qt/QtGui/qcursor.h /usr/include/qt/QtGui/qkeysequence.h \
-  /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h
+  /usr/include/qt/QtGui/QFont /usr/include/qt/QtGui/qfont.h \
+  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
+  /usr/include/qt/QtCore/qmap.h \
+  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/variant \
+  /usr/include/qt/QtCharts/QLegend /usr/include/qt/QtCharts/qlegend.h \
+  /usr/include/qt/QtWidgets/QGraphicsWidget \
+  /usr/include/qt/QtWidgets/qgraphicswidget.h \
+  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/qt/QtWidgets/qtwidgets-config.h \
+  /usr/include/qt/QtWidgets/qgraphicslayoutitem.h \
+  /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qevent.h \
+  /usr/include/qt/QtGui/qkeysequence.h \
+  /usr/include/qt/QtCore/qcoreevent.h /usr/include/qt/QtCore/qset.h \
+  /usr/include/qt/QtCore/qurl.h /usr/include/qt/QtCore/qfile.h \
+  /usr/include/qt/QtCore/qfiledevice.h /usr/include/qt/QtGui/qvector2d.h \
+  /usr/include/qt/QtGui/qtouchdevice.h \
+  /usr/include/qt/QtWidgets/qgraphicsitem.h \
+  /usr/include/qt/QtGui/qpainterpath.h /usr/include/qt/QtGui/qpalette.h \
+  /usr/include/qt/QtGui/QBrush /usr/include/qt/QtCore/QMargins \
+  /usr/include/qt/QtCharts/QChartView \
+  /usr/include/qt/QtCharts/qchartview.h \
+  /usr/include/qt/QtWidgets/QGraphicsView \
+  /usr/include/qt/QtWidgets/qgraphicsview.h \
+  /usr/include/qt/QtGui/qpainter.h /usr/include/qt/QtGui/qtextoption.h \
+  /usr/include/qt/QtGui/qfontinfo.h /usr/include/qt/QtGui/qfontmetrics.h \
+  /usr/include/qt/QtWidgets/qscrollarea.h \
+  /usr/include/qt/QtWidgets/qabstractscrollarea.h \
+  /usr/include/qt/QtWidgets/qframe.h /usr/include/qt/QtWidgets/qwidget.h \
+  /usr/include/qt/QtGui/qcursor.h \
+  /usr/include/qt/QtWidgets/qgraphicsscene.h \
+  /usr/include/qt/QtCharts/QLineSeries \
+  /usr/include/qt/QtCharts/qlineseries.h \
+  /usr/include/qt/QtCharts/QXYSeries \
+  /usr/include/qt/QtCharts/qxyseries.h \
+  /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+  /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/EWIEGA46WW/../../../../mainwindow.h \
+  /usr/include/qt/QtWidgets/QMainWindow \
+  /usr/include/qt/QtWidgets/qmainwindow.h \
+  /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
+  /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/EWIEGA46WW/../../../../classes/account.h \
+  /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/EWIEGA46WW/moc_setbudget.cpp \
+  /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/EWIEGA46WW/../../../../setbudget.h \
+  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h

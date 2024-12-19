@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1346</width>
-    <height>818</height>
+    <width>1160</width>
+    <height>808</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -29,7 +29,7 @@
     <layout class="QHBoxLayout" name="transactionLists">
      <item>
       <layout class="QVBoxLayout" name="foodContainer">
-       <item alignment="">
+       <item>
         <widget class="QLabel" name="foodLabel">
          <property name="styleSheet">
           <string notr="true"/>
@@ -66,7 +66,7 @@
      </item>
      <item>
       <layout class="QVBoxLayout" name="transContainer">
-       <item alignment="">
+       <item>
         <widget class="QLabel" name="transLabel">
          <property name="styleSheet">
           <string notr="true">display: flex;
@@ -104,7 +104,7 @@ justify-content: center</string>
      </item>
      <item>
       <layout class="QVBoxLayout" name="otherContainer">
-       <item alignment="">
+       <item>
         <widget class="QLabel" name="otherLabel">
          <property name="styleSheet">
           <string notr="true">display: flex;
@@ -216,13 +216,53 @@ justify-content: center</string>
      <string>Add</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="openDialogBtn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color: green;</string>
+    </property>
+    <property name="text">
+     <string>+ Set Budget</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>0</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>$</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1346</width>
+     <width>1160</width>
      <height>23</height>
     </rect>
    </property>

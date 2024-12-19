@@ -88,6 +88,8 @@
 		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
 		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Charts/Qt5ChartsConfig.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/eman/projects/budget-tracking",
@@ -103,16 +105,28 @@
 			null
 		],
 		[
+			"/home/eman/projects/budget-tracking/financegraph.h",
+			"MU",
+			"EWIEGA46WW/moc_financegraph.cpp",
+			null
+		],
+		[
 			"/home/eman/projects/budget-tracking/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"/home/eman/projects/budget-tracking/setbudget.h",
+			"MU",
+			"EWIEGA46WW/moc_setbudget.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : [ "QT_CHARTS_LIB", "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -127,6 +141,7 @@
 		"/usr/include/qt/QtGui",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include/qt/QtCharts",
 		"/usr/include/c++/14.2.1",
 		"/usr/include/c++/14.2.1/x86_64-pc-linux-gnu",
 		"/usr/include/c++/14.2.1/backward",
@@ -160,8 +175,10 @@
 	"SOURCES" : 
 	[
 		[ "/home/eman/projects/budget-tracking/classes/account.cpp", "MU", null ],
+		[ "/home/eman/projects/budget-tracking/financegraph.cpp", "MU", null ],
 		[ "/home/eman/projects/budget-tracking/main.cpp", "MU", null ],
-		[ "/home/eman/projects/budget-tracking/mainwindow.cpp", "MU", null ]
+		[ "/home/eman/projects/budget-tracking/mainwindow.cpp", "MU", null ],
+		[ "/home/eman/projects/budget-tracking/setbudget.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
