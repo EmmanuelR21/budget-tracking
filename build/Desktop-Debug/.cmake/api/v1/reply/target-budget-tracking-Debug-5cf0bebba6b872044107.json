@@ -37,13 +37,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 74,
+				"line" : 75,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 56,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
@@ -264,7 +264,8 @@
 				12,
 				15,
 				16,
-				17
+				17,
+				18
 			]
 		},
 		{
@@ -274,14 +275,14 @@
 				4,
 				9,
 				14,
-				18
+				19
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				19
+				20
 			]
 		}
 	],
@@ -369,6 +370,11 @@
 			"backtrace" : 1,
 			"path" : "graphviewer.ui",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "classes/accountbase.h",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,

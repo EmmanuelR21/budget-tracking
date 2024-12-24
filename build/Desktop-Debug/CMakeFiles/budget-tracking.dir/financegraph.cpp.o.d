@@ -317,6 +317,9 @@ CMakeFiles/budget-tracking.dir/financegraph.cpp.o: \
   /usr/include/qt/QtCharts/QLineSeries \
   /usr/include/qt/QtCharts/qlineseries.h \
   /usr/include/qt/QtCharts/QXYSeries \
-  /usr/include/qt/QtCharts/qxyseries.h \
+  /usr/include/qt/QtCharts/qxyseries.h /usr/include/qt/QtCore/QDebug \
+  /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qtextstream.h \
+  /usr/include/qt/QtCore/qlocale.h \
+  /usr/include/qt/QtCore/qcontiguouscache.h \
   /usr/include/qt/QtCharts/QValueAxis \
   /usr/include/qt/QtCharts/qvalueaxis.h

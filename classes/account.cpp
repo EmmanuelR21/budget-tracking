@@ -10,18 +10,27 @@ Account::Account(float startingBal) {
     startingBalance = startingBal;
 }
 
-float Account::GetStartingBalance() { return startingBalance; }
+float Account::GetStartingBalance() const
+{
+    return startingBalance;
+}
 void Account::SetStartingBalance(float startBal) {
     setprecision(2);
     startingBalance = startBal;
 }
-vector<float> Account::GetTransactions()
+vector<float> Account::GetTransactions() const
 {
     return transactions;
 }
 void Account::SetTransaction(float transaction) { transactions.push_back(transaction); }
-int Account::GetTransactionsSize() { return transactions.size(); }
-float Account::GetAvgTrans() { return avgTrans; }
+int Account::GetTransactionsSize() const
+{
+    return transactions.size();
+}
+float Account::GetAvgTrans() const
+{
+    return avgTrans;
+}
 void Account::SetAvgTrans() {
     float total = 0;
     for(int i = 0; i < transactions.size(); i++) {
@@ -31,7 +40,7 @@ void Account::SetAvgTrans() {
     avgTrans = total / transactions.size();
 }
 
-int Account::GetPercentOfBdgt()
+int Account::GetPercentOfBdgt() const
 {
     return percentOfBdgt;
 }
@@ -40,7 +49,7 @@ void Account::SetPercentOfBdgt(int p)
     percentOfBdgt = p;
 };
 
-double Account::GetTransactionSum()
+double Account::GetTransactionSum() const
 {
     double sum = 0;
     for (int i = 0; i < transactions.size(); i++) {

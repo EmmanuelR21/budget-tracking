@@ -1,6 +1,7 @@
 /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/EWIEGA46WW/moc_graphviewer.cpp: /home/eman/projects/budget-tracking/graphviewer.h \
   /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/moc_predefs.h \
   /home/eman/projects/budget-tracking/classes/account.h \
+  /home/eman/projects/budget-tracking/classes/accountbase.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm/errno.h \

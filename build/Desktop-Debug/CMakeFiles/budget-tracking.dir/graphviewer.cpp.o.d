@@ -285,6 +285,7 @@ CMakeFiles/budget-tracking.dir/graphviewer.cpp.o: \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtGui/qcursor.h /usr/include/qt/QtGui/qkeysequence.h \
   /home/eman/projects/budget-tracking/classes/account.h \
+  /home/eman/projects/budget-tracking/classes/accountbase.h \
   /home/eman/projects/budget-tracking/financegraph.h \
   /usr/include/qt/QtCore/QObject /usr/include/qt/QtCharts/QChart \
   /usr/include/qt/QtCharts/qchart.h \

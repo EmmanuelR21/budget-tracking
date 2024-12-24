@@ -287,6 +287,7 @@ CMakeFiles/budget-tracking.dir/mainwindow.cpp.o: \
   /usr/include/qt/QtGui/qcursor.h /usr/include/qt/QtGui/qkeysequence.h \
   /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
   /home/eman/projects/budget-tracking/classes/account.h \
+  /home/eman/projects/budget-tracking/classes/accountbase.h \
   /home/eman/projects/budget-tracking/build/Desktop-Debug/budget-tracking_autogen/include/./ui_mainwindow.h \
   /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
   /usr/include/qt/QtCore/qmap.h \

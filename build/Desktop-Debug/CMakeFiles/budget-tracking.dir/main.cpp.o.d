@@ -1,6 +1,7 @@
 CMakeFiles/budget-tracking.dir/main.cpp.o: \
   /home/eman/projects/budget-tracking/main.cpp \
   /home/eman/projects/budget-tracking/classes/account.h \
+  /home/eman/projects/budget-tracking/classes/accountbase.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/vector \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/bits/requires_hosted.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

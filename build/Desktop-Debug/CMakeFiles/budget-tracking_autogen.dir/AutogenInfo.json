@@ -105,6 +105,12 @@
 			null
 		],
 		[
+			"/home/eman/projects/budget-tracking/classes/accountbase.h",
+			"MU",
+			"QESDO5J2AP/moc_accountbase.cpp",
+			null
+		],
+		[
 			"/home/eman/projects/budget-tracking/financegraph.h",
 			"MU",
 			"EWIEGA46WW/moc_financegraph.cpp",
